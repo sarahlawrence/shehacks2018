@@ -22,7 +22,7 @@ class DayList extends React.Component {
     return (
       <div>
         <h1>{ this.props.day }</h1>
-        <Grid container spacing={8} justify='center'>
+        <Grid container spacing={8} justify='center' direction='column'>
           {this.buildList()}
         </Grid>
       </div>

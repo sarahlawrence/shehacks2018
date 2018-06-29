@@ -6,9 +6,9 @@ const buttonText = "I'm in!";
 const ImIn = () => (
   <div className='im-in'>
     <Checkbox className='checkbox'/>
-    <Typography component="p">
+    <p className='im-in-text'>
       {buttonText}
-    </Typography>
+    </p>
   </div>
 )
 
