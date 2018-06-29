@@ -1,12 +1,11 @@
 import React from 'react'
-import Link from 'gatsby-link'
+import DayList from '../components/dayList'
 
-const SecondPage = () => (
+const EventsList = () => (
   <div>
-    <h1>Hi from the second page</h1>
-    <p>Welcome to page 2</p>
-    <Link to="/">Go back to the homepage</Link>
+    <DayList day='saturday' />
+    <DayList day='sunday' />
   </div>
 )
 
-export default SecondPage
+export default EventsList
