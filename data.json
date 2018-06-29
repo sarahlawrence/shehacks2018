@@ -18,7 +18,7 @@
       "day": "Sunday",
       "time": "Day",
       "description": "Freshie Community Garden seeks to create an attractive, welcome, shared and safe place to grow fruit trees, vegetables and flowers using sustainable practices, and to promote social harmony and inclusion through building community capacity.",
-      "image": "https://files.northernbeaches.nsw.gov.au/sites/default/files/styles/gi--main-thumbnail/public/images/recreational-areas/2018-06-19-10-00//freshiecomgard.jpg?itok=3bH4eyss"
+      "image": "https://s3-ap-southeast-2.amazonaws.com/assets.yoursay.sa.gov.au/production/2017/10/23/04/50/49/f67a8d7c-2e67-4f04-ad63-59503dcbc752/garden.jpg"
     },
     {
       "id": 3,
@@ -57,8 +57,8 @@
       "postcode": 2150,
       "day": "Sunday",
       "time": "Day",
-      "description": "Winner of 7 major awards including Best New Musical at the Olivier Awards, this is a high energy romantic comedy about knowing who you are and showing what you've got!",
-      "image": "https://files.northernbeaches.nsw.gov.au/sites/default/files/styles/gi--main-thumbnail/public/images/recreational-areas/2018-06-19-10-00//freshiecomgard.jpg?itok=3bH4eyss"
+      "description": "Indulge in some retail therapy, by shopping with a conscience at the North Rocks Market. Held every Sunday opposite the North Rocks Shopping Centre, the markets offer an amazing selection of antiques, books and plants for a steal! Public entry is by a cash donation collected at the gate by Rotary volunteer members for use on charity projects.",
+      "image": "https://www.discoverparramatta.com/sites/default/files/styles/page_header/public/header-images/1322x522%20Dreamers%20Market%20Carla.jpg?itok=wPuJPIGR"
     },
     {
       "id": 7,
@@ -67,7 +67,7 @@
       "day": "Saturday",
       "postcode": 2150,
       "time": "Night",
-      "description": "The warmer weather has arrived and those wonderful balmy nights are perfect for enjoying outdoor cinema. Australia’s favourite open-air cinema, Moonlight Cinema, returns for another season offering a full program of silver screen blockbusters.",
+      "description": "Winner of 7 major awards including Best New Musical at the Olivier Awards, this is a high energy romantic comedy about knowing who you are and showing what you've got!",
       "image": "http://cdn.ltstatic.com/2000/January/DW488137_942long.jpg"
     },
     {
@@ -78,7 +78,7 @@
       "day": "Sunday",
       "time": "Day",
       "description": "We are the only permanent Fine Arts Gallery in Parramatta, we change our display  every 7 to 8 weeks and sell our members work. We have many well-known experienced artists as well as up and coming artists.  Over the last 2 years we have gained a reputation of selling fine art to locals and visitors to Parramatta.",
-      "image": "http://woodbridgectsoccer.org/wp-content/uploads/2017/02/cropped-Youth-soccer.jpg"
+      "image": "https://thespinoff.scdn5.secure.raxcdn.com/wp-content/uploads/2017/12/2017-lindauer-install-6.jpg"
     },
     {
       "id": 9,
@@ -122,7 +122,7 @@
     },
     {
       "id": 13,
-      "name": "Waverley cliff walk",
+      "name": "Waverley Cliff Walk",
       "location": "Manly Beach",
       "postcode": 2026,
       "day": "Saturday",
@@ -138,7 +138,7 @@
       "day": "Sunday",
       "time": "Day",
       "description": "The City2Surf is a popular road running event held annually in Sydney covering a 14-kilometre course. The event is a 'fun run' as well as a race, attracting both competitive runners and community participants who can choose to run or to walk.",
-      "image": "https://files.northernbeaches.nsw.gov.au/sites/default/files/styles/gi--main-thumbnail/public/images/recreational-areas/2018-06-19-10-00//freshiecomgard.jpg?itok=3bH4eyss"
+      "image": "http://static1.squarespace.com/static/56c50a61859fd010ae62d5b1/t/57e489a0f7e0abe816b82b8a/1474595237113/CITY2SURF+2016+PHOTOS_037+%281%29.jpg?format=1000w"
     },
     {
       "id": 15,
@@ -158,7 +158,7 @@
       "day": "Sunday",
       "time": "Day",
       "description": "This deli and café in Bondi is hugely popular with locals, and we can see why. The guys at Lox, Stock and Barrel focus on seasonal and locally sourced ingredients, with dishes inspired by their Jewish ancestors. And before you ask, yes, there are bagels—good ones too! Get yours with scrambled or poached eggs and a mandatory side of smoked lox or NY pastrami (we say it’s mandatory because you’re missing out if you don’t order at least one side!).",
-      "image": "http://woodbridgectsoccer.org/wp-content/uploads/2017/02/cropped-Youth-soccer.jpg"
+      "image": "http://heneedsfood.com/wp-content/uploads/2013/06/reuben-lox-stock-barrel-01.jpg"
     }
   ]
 }
