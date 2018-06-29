@@ -1,5 +1,6 @@
 import React from 'react'
-import ItemBlock from './itemBlock'
+import CardBlock from './cardBlock'
+import Grid from '@material-ui/core/Grid';
 
 const eventA = {
       "id": 2,
@@ -15,10 +16,21 @@ const eventA = {
 const DayList = ({ day }) => (
   <div>
     <h1>{ day }</h1>
-    <ItemBlock data={eventA} />
-    <ItemBlock data={eventA} />
-    <ItemBlock data={eventA} />
-    <ItemBlock data={eventA} />
+
+    <Grid container spacing={8} justify='center'>
+      <Grid item>
+        <CardBlock data={eventA} />
+      </Grid>
+      <Grid item>
+        <CardBlock data={eventA} />
+      </Grid>
+      <Grid item>
+        <CardBlock data={eventA} />
+      </Grid>
+      <Grid item>
+        <CardBlock data={eventA} />
+      </Grid>
+    </Grid>
   </div>
 )
 
