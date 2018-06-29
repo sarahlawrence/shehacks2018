@@ -1,1 +1,1 @@
-p{font-size:0.875rem}.card{margin:20px;max-width:800px}.card-content{border:1px solid red;max-width:300px}.im-in{width:150px;border:1px solid blue;display:inline-block}.im-in-text{width:50px;display:inline-block;margin:0}.checkbox{display:inline-block}
+.card{margin:20px;max-width:800px}.card-content{max-width:300px}.im-in{width:110px;border:1px solid #7cac50;border-radius:5px;display:inline-block;background-color:#7cac50;color:#fff}.im-in-text{width:50px;display:inline-block;margin:0}.checkbox{display:inline-block}
