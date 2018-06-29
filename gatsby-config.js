@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Discover My Weekend',
+    title: 'Discover my weekend',
   },
   plugins: ['gatsby-plugin-react-helmet', 'gatsby-plugin-react-next'],
 };
