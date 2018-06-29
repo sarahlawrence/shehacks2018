@@ -10,7 +10,11 @@
     "gatsby-plugin-react-helmet": "^2.0.10",
     "gatsby-plugin-react-next": "^1.0.11",
     "react": "^16.4.1",
-    "react-helmet": "^5.2.0"
+    "react-helmet": "^5.2.0",
+    "nuka-carousel": "^4.2.3",
+    "react-helmet": "^5.2.0",
+    "react-slick": "^0.23.1",
+    "slick-carousel": "^1.8.1"
   },
   "keywords": [
     "gatsby"
