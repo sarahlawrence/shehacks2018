@@ -58,7 +58,7 @@
       "day": "Sunday",
       "time": "Day",
       "description": "Indulge in some retail therapy, by shopping with a conscience at the North Rocks Market. Held every Sunday opposite the North Rocks Shopping Centre, the markets offer an amazing selection of antiques, books and plants for a steal! Public entry is by a cash donation collected at the gate by Rotary volunteer members for use on charity projects.",
-      "image": "https://www.discoverparramatta.com/sites/default/files/styles/page_header/public/header-images/1322x522%20Dreamers%20Market%20Carla.jpg?itok=wPuJPIGR"
+      "image": "https://media.timeout.com/images/105159722/image.jpg"
     },
     {
       "id": 7,
@@ -96,7 +96,7 @@
       "location": "Museum of Contemporary Art",
       "postcode": 2042,
       "day": "Sunday",
-      "time": "Day",
+      "time": "Night",
       "description": "This is the newest frontier in fashion, where fibre, fabric and silhouette are merged with microcomputers, sensors and artificial intelligence, to amplify the environment-sensing abilities of the human body. The goal is sartorial fashion elegance that informs the wearers sensory systems using scientific data.",
       "image": "https://www.vividsydney.com/sites/default/files/sARTorial_EventImages.jpg"
     },
@@ -106,7 +106,7 @@
       "location": "6 Mary St, Newtown",
       "day": "Saturday",
       "postcode": 2042,
-      "time": "Night",
+      "time": "Day",
       "description": "Marys‘s opened in a former STD clinic on a small back street in Newtown in 2013, quickly gaining a reputation as one of Sydney’s hottest joints.  With the red light hanging out front, the lines formed, and have barely moved since. Short menu, loud music and plenty of booze is the recipe from which the Marys juggernaut continues to grow. ",
       "image": "https://www.broadsheet.com.au/media/cache/46/f3/46f3bc7a6b6e3a486d15715cc91e7fba.jpg"
     },
@@ -123,7 +123,7 @@
     {
       "id": 13,
       "name": "Waverley Cliff Walk",
-      "location": "Manly Beach",
+      "location": "Watson's Bay",
       "postcode": 2026,
       "day": "Saturday",
       "time": "Day",

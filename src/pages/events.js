@@ -5,8 +5,8 @@ import * as RAW from '../../data.json';
 class EventsList extends React.Component {
   constructor(props) {
     super(props);
-    const selectedIds = [1,2,5,6]; // REPLACE
-    const data = RAW.data.filter(x => selectedIds.includes(x.id));
+    const postcode = 2095; // replace with this.props.postcode - options: 2026, 2042, 2150, 2095
+    const data = RAW.data.filter(x => postcode === x.postcode);
     this.state = {
       data,
     };
