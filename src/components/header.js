@@ -6,7 +6,7 @@ const Header = ({ siteTitle }) => (
     <div className='header-content'>
       <h1 style={{ margin: 0 }}>
         <Link to="/">
-          {siteTitle}
+          Wander<span className='notwhite'>Local</span>
         </Link>
       </h1>
 
