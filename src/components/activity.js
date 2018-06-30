@@ -2,6 +2,9 @@ import React from 'react';
 import Button from '@material-ui/core/Button';
 import Paper from '@material-ui/core/Paper';
 import ActivityImg from '../img/bike_blur.jpg';
+import ActivityEasy from '../img/activity-easy.png';
+import ActivityMed from '../img/activity-med.png';
+import ActivityHard from '../img/activity-hard.png';
 
 class Activity extends React.Component {
   constructor(props) {
@@ -20,9 +23,19 @@ class Activity extends React.Component {
         <img src={ActivityImg} className='full-img'/>
       </div>
       <div className='wrap-content wrap-three'>
-        <Button onClick={(e) => this.handleClick(e)} />
-        <Button onClick={(e) => this.handleClick(e)} />
-        <Button onClick={(e) => this.handleClick(e)} />
+        <div className='wrap-text'>How intense is my weekend?</div>
+        <Button onClick={(e) => this.handleClick(e)} >
+          <img src={ActivityEasy} />
+          Easy like Sunday morning
+        </Button>
+        <Button onClick={(e) => this.handleClick(e)} >
+          <img src={ActivityMed} />
+          Ready for some activity
+        </Button>
+        <Button onClick={(e) => this.handleClick(e)} >
+          <img src={ActivityHard} />
+          Make it hardcore
+        </Button>
       </div>
     </div>
   )
