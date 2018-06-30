@@ -24,6 +24,11 @@ h1, h2, h3 {
     margin: 0 auto;
     max-width: 960px;
     padding: 1.45rem 1.0875rem;
+    display: flex;
+    justify-content: space-between;
+    .banner{
+      color: white;
+    }
 
     a {
       color: $light-text-color;
