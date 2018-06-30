@@ -17,16 +17,17 @@ $font: "Roboto", "Helvetica", "Arial", sans-serif;
     height: 100%;
   }
   .wrap-content {
+    color: white;
     z-index: 10;
-    vertical-align: middle;
+    padding: 25% 100px;
+    text-align: center;
 
     span {
       color: $light-text-color;
     }
   }
+}
 
-  .wrap-text {
-    color: $light-text-color;
-    font-family: $font;
-  }
+.white {
+  color: $text-color;
 }
