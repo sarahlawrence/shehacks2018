@@ -27,10 +27,12 @@ class Postcode extends React.Component {
       </div>
       <div className='wrap-content'>
         <h1 className='wrap-text'>Where am I spending my weekend?</h1>
+        <div className='postcode-wrap'>
         <InputLabel htmlFor="postcode">Postcode</InputLabel>
           <Input id="postcode" onChange={(e) => this.handleChange(e)}
             startAdornment={<InputAdornment position="start"></InputAdornment>}
           />
+      </div>
       </div>
     </div>
   )
