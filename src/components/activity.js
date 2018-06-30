@@ -1,8 +1,9 @@
 import React from 'react';
 import Button from '@material-ui/core/Button';
-import GroupImg from '../img/people_blur.jpg';
+import Paper from '@material-ui/core/Paper';
+import ActivityImg from '../img/bike_blur.jpg';
 
-class Group extends React.Component {
+class Activity extends React.Component {
   constructor(props) {
     super(props);
   }
@@ -16,7 +17,7 @@ class Group extends React.Component {
   return (
     <div className='wrap'>
       <div className='wrap-bg'>
-        <img src={GroupImg} className='full-img'/>
+        <img src={ActivityImg} className='full-img'/>
       </div>
       <div className='wrap-content wrap-three'>
         <Button onClick={(e) => this.handleClick(e)} />
@@ -28,4 +29,4 @@ class Group extends React.Component {
   }
 }
 
-export default Group;
+export default Activity;

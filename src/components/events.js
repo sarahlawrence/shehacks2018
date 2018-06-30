@@ -1,6 +1,6 @@
 import React from 'react';
 import Button from '@material-ui/core/Button';
-import DayList from '../components/dayList'
+import DayList from './dayList'
 import * as RAW from '../../data.json';
 
 const buttonStyles = {
