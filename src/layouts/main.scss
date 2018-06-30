@@ -10,6 +10,7 @@ $light-text-color: #fff;
   font-family: $font;
   font-size: 0.875rem;
 }
+
 h1, h2, h3 {
   font-family: $font;
   color: $accent-blue;
@@ -34,4 +35,7 @@ h1, h2, h3 {
 .footer {
   background-color: $accent-green;
   color: white;
+  h3 {
+    color: white;
+  }
 }

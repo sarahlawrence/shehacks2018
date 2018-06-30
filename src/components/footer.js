@@ -11,9 +11,7 @@ const Footer = () => (
         padding: '1.45rem 1.0875rem',
       }}
     >
-      <h3 style={{ margin: 0 }}>
-          Thanks for discovering your weekend with us
-      </h3>
+      <h3>Thanks for discovering your weekend with us</h3>
       <p>© Copyright 2018</p>
     </div>
   </div>
