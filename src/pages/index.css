@@ -1,0 +1,32 @@
+.container{
+    background-image: url('./assets/home-background.jpg');
+    background-repeat: no-repeat;
+    height: 48em;;
+    background-size: 1300px;
+}
+
+.title{
+    display: flex;
+    color: white;
+}
+
+.intro{
+    flex: 2;
+    margin-top: 200px;
+    margin-left: 50px;
+}
+
+.intro h1{
+    color: white
+}
+.plan{
+    flex: 1;
+    margin-top: 30%;
+    text-decoration: none;
+}
+
+.plan button{
+    width: 17em;
+    height: 4em;
+    background-color: #7cac50;
+}
