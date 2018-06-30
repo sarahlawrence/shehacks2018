@@ -1,0 +1,17 @@
+$accent-green: #7cac50;
+$accent-blue: #3d6570;
+$grey: #617286;
+$text-color: #fff;
+$light-text-color: #fff;
+
+.wrap {
+  display: block;
+  .wrap-bg {
+    position: absolute;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .wrap-content {
+    position: absolute;
+  }
+}
