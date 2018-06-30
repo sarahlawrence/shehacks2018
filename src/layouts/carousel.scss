@@ -16,7 +16,13 @@ $light-text-color: #fff;
     height: 100%;
   }
   .wrap-content {
+    color: white;
     z-index: 10;
-    vertical-align: middle;
+    padding: 25% 100px;
+    text-align: center;
   }
+}
+
+.white {
+  color: $text-color;
 }
