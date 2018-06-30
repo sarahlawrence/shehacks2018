@@ -9,6 +9,7 @@ const Footer = () => (
         padding: '1.45rem 1.0875rem',
         backgroundColor: '#7cac50',
         color: 'white',
+        zIndex: '12'
       }}
     >
       <h3>Thanks for discovering your weekend with us</h3>
