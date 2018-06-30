@@ -12,13 +12,17 @@ $light-text-color: #fff;
   font-size: 0.875rem;
 }
 
+body {
+  background-color: #c4e8a2;
+}
+
 h1, h2, h3 {
   font-family: $font;
   color: $accent-blue;
 }
 
 .header {
-  background-color: $accent-green;
+  background-color: $light-text-color;
 
   .header-content {
     margin: 0 auto;
@@ -26,12 +30,12 @@ h1, h2, h3 {
     padding: 1.45rem 1.0875rem;
     display: flex;
     justify-content: space-between;
-    .banner{
-      color: white;
+    .banner {
+      color: $grey;
     }
 
     a {
-      color: $light-text-color;
+      color: $grey;
       text-decoration: none;
     }
   }

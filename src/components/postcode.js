@@ -26,7 +26,7 @@ class Postcode extends React.Component {
         <img src={PostcodeImg} className='full-img'/>
       </div>
       <div className='wrap-content'>
-        <h1>Where would you like to spend your weekend?</h1>
+        <h1 className='wrap-text'>Where would you like to spend your weekend?</h1>
         <InputLabel htmlFor="postcode">Postcode</InputLabel>
           <Input id="postcode" onChange={(e) => this.handleChange(e)}
             startAdornment={<InputAdornment position="start"></InputAdornment>}

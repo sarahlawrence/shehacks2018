@@ -3,6 +3,7 @@ $accent-blue: #3d6570;
 $grey: #617286;
 $text-color: #fff;
 $light-text-color: #fff;
+$font: "Roboto", "Helvetica", "Arial", sans-serif;
 
 .wrap {
   display: block;
@@ -18,5 +19,14 @@ $light-text-color: #fff;
   .wrap-content {
     z-index: 10;
     vertical-align: middle;
+
+    span {
+      color: $light-text-color;
+    }
+  }
+
+  .wrap-text {
+    color: $light-text-color;
+    font-family: $font;
   }
 }

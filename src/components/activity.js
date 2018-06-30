@@ -23,7 +23,7 @@ class Activity extends React.Component {
         <img src={ActivityImg} className='full-img'/>
       </div>
       <div className='wrap-content wrap-three'>
-        <div className='wrap-text'>How intense is my weekend?</div>
+        <h1 className='wrap-text'>How intense is my weekend?</h1>
         <Button onClick={(e) => this.handleClick(e)} >
           <img src={ActivityEasy} />
           Easy like Sunday morning

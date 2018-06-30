@@ -22,7 +22,7 @@ class Group extends React.Component {
         <img src={GroupImg} className='full-img'/>
       </div>
       <div className='wrap-content wrap-three'>
-        <div className='wrap-text'>Who am I spending the weekend with?</div>
+        <h1 className='wrap-text'>Who am I spending the weekend with?</h1>
         <Button onClick={(e) => this.handleClick(e)} >
           <img src={Group1} />
           Flying solo
