@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import Button from '@material-ui/core/Button';
 
 const Header = ({ siteTitle }) => (
   <header className='header'>
@@ -9,6 +10,14 @@ const Header = ({ siteTitle }) => (
           {siteTitle}
         </Link>
       </h1>
+
+      <div className='banner'>
+
+            <Button > about us </Button> 
+            <Button >why to join</Button>
+            <Button >contact us</Button>
+
+      </div>
     </div>
   </header>
 )

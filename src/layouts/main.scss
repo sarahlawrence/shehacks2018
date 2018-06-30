@@ -20,11 +20,18 @@ h1, h2, h3 {
   margin: 0 0 1.45rem 0;
   background-color: $accent-green;
 
+
+
   .header-content {
     margin: 0 auto;
     max-width: 960px;
     padding: 1.45rem 1.0875rem;
+    display: flex;
+    justify-content: space-between;
 
+    button {
+      color: white;
+    }
     a {
       color: $light-text-color;
       text-decoration: none;
