@@ -4,10 +4,10 @@ import DayList from './dayList'
 import * as RAW from '../../data.json';
 
 const buttonStyles = {
-  'background-color': '#7cac50',
+  'background-color': '#3d6570',
   'color': 'white',
-  'padding': '8px',
-  'font-weight': 'bolder'
+  'padding': '8px 16px',
+  'text-transform':'lowercase'
 }
 
 class EventsList extends React.Component {
@@ -27,12 +27,13 @@ class EventsList extends React.Component {
       <div className="eventsPage">
         <div>
           <DayList day='Saturday' data={saturdayData}/>
+          <div className='day-border' />
           <DayList day='Sunday' data={sundayData}/>
         </div>
         <div className="centerDiv">
           <Button variant="contained" size="large" style={buttonStyles}>Email me my weekend</Button>
           <p></p>
-          <Button variant="contained" size="large" style={buttonStyles}>Add to calendar</Button>
+          <Button variant="contained" size="large" style={buttonStyles}>Add to my calendar</Button>
         </div>
       </div>
     );
