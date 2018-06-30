@@ -22,18 +22,23 @@ $light-text-color: #fff;
   }
 
   .card-details {
-    color: $accent-blue;
+    color: $grey;
   }
 }
 
 .im-in {
   width: 110px;
-  border: 1px solid $accent-green;
+  border: 1px solid $accent-blue;
   border-radius: 8px;
 
   display: inline-block;
-  background-color: $accent-green;
+  background-color: $accent-blue;
   color: $light-text-color;
+
+  &.checked {
+    background-color: $accent-green;
+    border: 1px solid $accent-green;
+  }
 }
 
 .im-in-text {

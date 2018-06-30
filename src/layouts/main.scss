@@ -11,6 +11,11 @@ $light-text-color: #fff;
   font-size: 0.875rem;
 }
 
+h1, h2, h3 {
+  font-family: $font;
+  color: $accent-blue;
+}
+
 .header {
   margin: 0 0 1.45rem 0;
   background-color: $accent-green;
