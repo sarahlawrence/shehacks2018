@@ -1,5 +1,7 @@
 import React from 'react';
 import Postcode from '../components/postcode';
+import Group from '../components/group';
+import Footer from '../components/footer';
 
 import './landing-page.css'
 
@@ -23,7 +25,8 @@ class LandingPage extends React.Component {
         return <Postcode callback={this.postcodeCallback}/>
         break;
       case 'group':
-        return <div>hello</div>
+        return <Group />
+        break;
     }
   }
 
@@ -31,6 +34,7 @@ class LandingPage extends React.Component {
     return (
       <div>
         {this.getActive()}
+        <Footer />
       </div>
     );
   }
