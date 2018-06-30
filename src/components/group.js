@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
 import ButtonBase from '@material-ui/core/ButtonBase';
 import Typography from '@material-ui/core/Typography';
+import BottomNavigation from '@material-ui/core/BottomNavigation';
 
 const styles = theme => ({
   root: {
@@ -78,13 +79,37 @@ const styles = theme => ({
 });
 
 
-function ButtonBases(props) {
-  const { classes, data } = props;
+class ButtonBases extends React.Component {
+  state = {
+    value: 0,
+    title: '',
+  };
 
+  handleChange = (event, value) => {
+    console.log("value", value);
+    this.setState({ value });
+  };
+
+  handleButtonClick = (title) => {
+    this.setState({ title });
+  };
+
+  render() {
+    const { classes,data } = this.props;
+    const { value } = this.state;
+  
   return (
     <div className={classes.root}>
+    <BottomNavigation
+        value={value}
+        onChange={this.handleChange}
+        showLabels
+        className={classes.root}
+      >
+
       {data.map(image => (
         <ButtonBase
+          onClick={() => this.handleButtonClick(image.title)}
           focusRipple
           key={image.title}
           className={classes.image}
@@ -100,12 +125,16 @@ function ButtonBases(props) {
             }}
           />
           <span className={classes.imageBackdrop} />
-          <span className={classes.imageButton}>
+          <span className={classes.imageButton}
+          >
             <Typography
               component="span"
               variant="subheading"
               color="inherit"
               className={classes.imageTitle}
+              style={{
+                color: this.state.title === image.title? 'blue': 'white'
+              }}
             >
               {image.title}
               <span className={classes.imageMarked} />
@@ -113,9 +142,10 @@ function ButtonBases(props) {
           </span>
         </ButtonBase>
       ))}
+      </BottomNavigation>
     </div>
   );
-}
+}}
 
 ButtonBases.propTypes = {
   classes: PropTypes.object.isRequired,
