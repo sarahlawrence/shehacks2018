@@ -60,8 +60,7 @@ export default class extends React.Component {
     return (
       <div className='main'>
       <Carousel>
-        <div className='slide start'>
-        <h1> Let's start awesome weekend together</h1></div>
+
         <div className='slide postcode'> 
           <div className='postcode-container'>
           <InputLabel htmlFor="postcode">Postcode</InputLabel>

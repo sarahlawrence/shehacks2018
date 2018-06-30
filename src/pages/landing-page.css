@@ -5,19 +5,14 @@
 
 }
 
-.start {
-    background-size: cover;
-    background-image: url('https://rccl-h.assetsadobe.com/is/image/content/dam/royal/content/weekend-getaway/weekend-cruise-getaway-friends-jumping-fun.jpg?$1024x470$')
-}
-
-.start h1{
-    color: white;
-    text-align: center;
-    padding-top: 23%;
-}
 .postcode {
     background-size: cover;
-    background-image: url('http://www.biznetdigital.net/wp-content/uploads/2013/10/Fotolia_7150837_L.jpg')
+    background-image: url('./assets/maps-blur.png')
+}
+
+.postcode label{
+    font-size: 1.5em;
+    margin-right: 1em;
 }
 .postcode-container{
     padding-top: 30%;
