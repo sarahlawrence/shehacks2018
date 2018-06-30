@@ -3,12 +3,22 @@ import Button from '@material-ui/core/Button';
 import DayList from './dayList'
 import * as RAW from '../../data.json';
 
+const buttonStylesPrim = {
+  'background-color': '#7cac50',
+  'color': 'white',
+  'padding': '8px 16px',
+  'text-transform':'lowercase',
+  'width': '200px'
+}
+
 const buttonStyles = {
   'background-color': '#3d6570',
   'color': 'white',
   'padding': '8px 16px',
-  'text-transform':'lowercase'
+  'text-transform':'lowercase',
+  'width': '200px'
 }
+
 
 class EventsList extends React.Component {
   constructor(props) {
@@ -27,7 +37,7 @@ class EventsList extends React.Component {
     const sundayData = this.state.data.filter(x => x.day === 'Sunday');
     return (
       <div className="eventsPage">
-        <h1>My weekend</h1>
+        <h1>My weekend in {this.props.postcode}</h1>
         <div>
           <DayList day='Saturday' data={saturdayData}/>
           <div className='day-border' />
@@ -35,9 +45,9 @@ class EventsList extends React.Component {
           <div className='day-border' />
         </div>
         <div className="centerDiv">
-          <Button variant="contained" size="large" style={buttonStyles}>Email me my weekend</Button>
+          <Button variant="contained" size="large" style={buttonStylesPrim}>Add to my calendar</Button>
           <p></p>
-          <Button variant="contained" size="large" style={buttonStyles}>Add to my calendar</Button>
+          <Button variant="contained" size="large" style={buttonStyles}>Email me my weekend</Button>
           <div className='day-border' />
         </div>
       </div>
