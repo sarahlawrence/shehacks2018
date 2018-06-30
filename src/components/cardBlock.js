@@ -20,15 +20,15 @@ class CardBlock extends React.Component {
           </Grid>
 
           <Grid item className='card-content card-text'>
-            <Typography gutterBottom variant="headline" component="h2">
+            <h2>
               {blockData.name}
-            </Typography>
-            <Typography component="p">
+            </h2>
+            <p>
               {blockData.description}
-            </Typography>
-            <Typography component="p">
+            </p>
+            <p className='card-details'>
               {blockData.location}, {blockData.day} ({blockData.time})
-            </Typography>
+            </p>
           </Grid>
 
           <Grid item className='card-content card-action'>

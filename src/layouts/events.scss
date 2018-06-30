@@ -6,12 +6,24 @@ $light-text-color: #fff;
 
 
 .card {
-  margin: 20px;
-  max-width: 800px;
+  margin: 20px auto;
+  max-width: 10000px;
 }
 
 .card-content {
-  max-width: 300px;
+  max-width: 350px;
+
+  &.card-text{
+    margin: 0.5rem 1rem;
+  }
+
+  &.card-action {
+    margin: 1.5rem 0.5rem 1.5rem 1.5rem;
+  }
+
+  .card-details {
+    color: $accent-blue;
+  }
 }
 
 .im-in {
