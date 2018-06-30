@@ -21,7 +21,7 @@ class DayList extends React.Component {
   render() {
     return (
       <div>
-        <h1>{ this.props.day }</h1>
+        <h1 className='day-name'>{ this.props.day }</h1>
         <Grid container spacing={8} justify='center' direction='column'>
           {this.buildList()}
         </Grid>
