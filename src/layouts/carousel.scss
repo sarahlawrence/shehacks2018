@@ -22,12 +22,13 @@ $font: "Roboto", "Helvetica", "Arial", sans-serif;
     padding: 25% 100px;
     text-align: center;
 
-    span {
+    span, label {
       color: $light-text-color;
     }
+
   }
 }
 
-.white {
+.wrap-text {
   color: $text-color;
 }
