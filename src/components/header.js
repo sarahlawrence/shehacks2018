@@ -11,9 +11,8 @@ const Header = ({ siteTitle }) => (
       </h1>
 
       <div className='banner'>
-        <Button > about us </Button>
-        <Button >why to join</Button>
-        <Button >contact us</Button>
+        <Button>about</Button>
+        <Button>contact</Button>
 
       </div>
     </div>

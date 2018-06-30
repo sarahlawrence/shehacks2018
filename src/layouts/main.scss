@@ -1,10 +1,12 @@
 @import './events.min.css';
 @import './carousel.min.css';
+@import url('https://fonts.googleapis.com/css?family=Maven+Pro');
 
-$font: "Roboto", "Helvetica", "Arial", sans-serif;
+$font: "Maven Pro", "Helvetica", "Arial", sans-serif;
 $accent-green: #7cac50;
 $accent-blue: #3d6570;
 $grey: #617286;
+$body-grey: #dbe1e8;
 $light-text-color: #fff;
 
 .body, p {
@@ -13,7 +15,8 @@ $light-text-color: #fff;
 }
 
 body {
-  background-color: #c4e8a2;
+  background-color: $body-grey;
+  font-family: $font;
 }
 
 h1, h2, h3 {
@@ -32,7 +35,8 @@ h1, h2, h3 {
     justify-content: space-between;
 
     button {
-      color: white;
+      color: $grey;
+      text-transform: lowercase;
     }
 
     a {
