@@ -68,5 +68,14 @@ $light-text-color: #fff;
 }
 
 .postcode-wrap {
+  width: 450px;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 8px;
   background: rgba(219, 225, 232, 0.2);
+  text-align: center;
+  input {
+    text-align: center;
+    font-size: 1.3rem;
+  }
 }
