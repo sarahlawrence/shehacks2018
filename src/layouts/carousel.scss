@@ -6,12 +6,17 @@ $light-text-color: #fff;
 
 .wrap {
   display: block;
-  .wrap-bg {
+  position: relative;
+
+  .wrap-bg,
+  .wrap-content  {
     position: absolute;
-    width: 80%;
     margin: 0 auto;
+    width: 100%;
+    height: 100%;
   }
   .wrap-content {
-    position: absolute;
+    z-index: 10;
+    vertical-align: middle;
   }
 }
