@@ -25,6 +25,7 @@ class EventsList extends React.Component {
     const sundayData = this.state.data.filter(x => x.day === 'Sunday');
     return (
       <div className="eventsPage">
+        <h1>My weekend</h1>
         <div>
           <DayList day='Saturday' data={saturdayData}/>
           <div className='day-border' />

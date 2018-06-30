@@ -8,21 +8,21 @@ const IndexPage = () => (
     <div className='title'>
     <div className='intro'>
     <h1>
-Still not sure what to do for upcoming weekend
-      </h1>
+      Wanderlust? Unlock local weekend adventures.
+    </h1>
 
-      <p> <h1> Let us help you</h1></p>
+    <h2 className='white'>Discover what's on this weekend with WanderLocal</h2>
     </div>
-    
+
     <Link to="/landing-page/" className='plan'>
       <Button variant="contained" color="primary" >
       Plan my weekend
       </Button>
     </Link>
-     
+
 
     </div>
-    
+
 
 
   </div>
