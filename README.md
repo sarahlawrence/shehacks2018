@@ -1,23 +1,27 @@
-# gatsby-starter-default
-The default Gatsby starter.
+# WanderLocal
 
-For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/).
+This project was created for SheHacks2018 Sydney, by Sarah Lawrence, Janette Chiu, Agnieszka Oszust, and Yundi Fu.  
+The concept was a website that curates your weekend based on local activities in your area.  
 
-## Install
+This repo contains a prototype using mock data to demonstrate our idea.
 
-Make sure that you have the Gatsby CLI program installed:
-```sh
-npm install --global gatsby-cli
-```
+**Link:** [WanderLocal](https://serrilaw.github.io/shehacks2018/)
 
-Then you can run it by:
-```sh
-cd city-app
+## Mock Inputs
+Use the following inputs to display the mock data:  
+Postcode: 2026 / 2095 / 2105 / 2042
 
 
-gatsby develop
-```
+# Commands
 
-## Deploy
+* `npm run develop` - run local dev server
+* `npm run build` - create a build
+* `npm run deploy` - deploy to GH Pages
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
+
+# Tech Stack
+
+* NodeJS
+* React
+* Gatsby
+* Sass
