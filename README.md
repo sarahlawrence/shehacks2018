@@ -1,11 +1,11 @@
 # WanderLocal
 
-This project was created for SheHacks2018 Sydney, by Sarah Lawrence, Janette Chiu, Agnieszka Oszust, and Yundi Fu.  
+This project was created for the SheHacks2018 Sydney Hackathon, by Sarah Lawrence, Janette Chiu, Agnieszka Oszust, and Yundi Fu.  
 The concept was a website that curates your weekend based on local activities in your area.  
 
-This repo contains a prototype using mock data to demonstrate our idea.
+This repo contains a prototype using mock data to demonstrate our idea.  
 
-**Link:** [WanderLocal](https://serrilaw.github.io/shehacks2018/)
+**Link:** [WanderLocal](https://serrilaw.github.io/shehacks2018/x)
 
 ## Mock Inputs
 Use the following inputs to display the mock data:  
