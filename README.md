@@ -5,7 +5,7 @@ The concept was a website that curates your weekend based on local activities in
 
 This repo contains a prototype using mock data to demonstrate our idea.  
 
-**Link:** [WanderLocal](https://serrilaw.github.io/shehacks2018/x)
+**Link:** [WanderLocal](https://serrilaw.github.io/shehacks2018/)
 
 ## Mock Inputs
 Use the following inputs to display the mock data:  
